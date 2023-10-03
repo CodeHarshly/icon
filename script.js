@@ -14,10 +14,10 @@ function activeLink() {
     // Set the --clr variable based on the clicked icon
     switch (iconText) {
         case "about":
-            newColor = "#fc7100";
+            newColor = "yellow";
             break;
         case "skills":
-            newColor = "yellow";
+            newColor = "fc7100";
             break;
         case "project":
             newColor = "red";
